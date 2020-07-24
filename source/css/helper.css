@@ -1,0 +1,52 @@
+.box-shadow {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+.show {
+    display: flex;
+}
+.show_face {
+    display: block;
+}
+.no_scroll {
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+}
+.mb3r {
+    margin-bottom: 3rem;
+}
+.align-right {
+    text-align: right;
+}
+.for_center {
+    text-align: center;
+}
+.hide {
+    display: none;
+}
+.menu-mobile {
+    display: flex;
+    flex-wrap: wrap;
+    order: 3;
+    margin-top: 1rem;
+    margin-bottom: 0.9rem;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.menu-mobile a {
+    margin: 0.5rem;
+    
+}
+.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+    padding-top: 0.5rem;
+    background: rgba(255,255,255, 0.2);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(8px);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
